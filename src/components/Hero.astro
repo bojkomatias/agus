@@ -4,21 +4,44 @@ import Agus from "../assets/Agus.png";
 ---
 
 <main class="h-[100dvh]">
-    <section class="space-y-2 overflow-hidden">
+    <section class="space-y-6 overflow-hidden px-12 pt-12">
         <Image
             src={Agus}
             alt="Agustina's photo"
-            class="h-96 w-96 object-cover ml-28 -mb-2"
+            class="h-80 w-80 object-cover rounded-full"
         />
 
-        <div class="text-5xl text-right pr-16">
-            Agustina Sofía<br />
-            <span class="font-bold">Bojko Slekis</span>
+        <div>
+            <span class="text-4xl font-bold">
+                Agustina <br /> Bojko Slekis
+            </span>
+            <br />
+            <span class="font-thin text-xs uppercase"
+                >Psiquiatra en formación. Médica (Mat. 27950)</span
+            >
         </div>
-        <br />
-        <br />
-        <div class="text-center font-light uppercase text-sm">
-            Médica (Mat. 27950) <br /> Psiquiatra en formación.
+
+        <div class="prose prose-p:font-thin prose-a:text-[#670067]">
+            <p>
+                Para ponerte en contacto conmigo completa <a
+                    href="https://forms.gle/TfrjhybXSqsuxjE99"
+                    target="_blank">este formulario</a
+                > y te voy a responder a la brevedad.
+            </p>
+            <p class="flex gap-1">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-5 mt-0.5"
+                >
+                    <path
+                        fill-rule="evenodd"
+                        d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                Rosario, Argentina
+            </p>
         </div>
     </section>
 </main>
